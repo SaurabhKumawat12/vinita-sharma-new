@@ -58,7 +58,7 @@ const Header = () => {
             className="track-subscribe-btn bg-[#25D366] hover:bg-[#20C157] text-white px-6 py-2 rounded-full font-semibold shadow-lg hover:shadow-green-400/30 transition-transform hover:scale-105 flex items-center gap-2"
           >
             <Icon icon="mdi:whatsapp" width="20" />
-            Start Journey
+            Start Your Journey
           </a>
         </nav>
 
@@ -128,7 +128,7 @@ const Footer = () => {
         {/* Social Icons */}
         <div className="flex justify-center space-x-8 mb-8">
           <a
-            href="https://www.instagram.com/"
+            href="https://www.instagram.com/affiliatevinit"
             target="_blank"
             className="p-3 rounded-full bg-gradient-to-br from-[#E1306C] to-[#F56040] hover:scale-110 transition shadow-lg"
           >

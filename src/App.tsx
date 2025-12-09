@@ -1096,17 +1096,17 @@ function App() {
             <div className="grid grid-cols-1 md:grid-cols-3 gap-12 mb-20">
               <img
                 src="/assets/images/smm225.jpeg"
-                className="w-full rounded-3xl object-cover shadow-xl hover:shadow-2xl transition-all duration-500"
+                className="w-full h-full object-cover aspect-[3/4] rounded-3xl  shadow-xl hover:shadow-2xl transition-all duration-500"
                 alt="Award"
               />
               <img
                 src="/assets/images/inspirational-ceo-aakash-gupta.jpeg"
-                className="w-full rounded-3xl shadow-xl hover:shadow-2xl transition-all duration-500"
+                className="w-full h-full object-cover aspect-[3/4] rounded-3xl shadow-xl hover:shadow-2xl transition-all duration-500"
                 alt="Award"
               />
               <img
-                src="/assets/images/stravix-growth-icon.jpeg"
-                className="w-full rounded-3xl shadow-xl hover:shadow-2xl transition-all duration-500"
+                src="/assets/images/stravix-growth-icon-sq.jpeg"
+                className="w-full h-full object-cover aspect-[3/4] rounded-3xl shadow-xl hover:shadow-2xl transition-all duration-500"
                 alt="Meetup"
               />
             </div>
@@ -1410,7 +1410,7 @@ function App() {
 
             {/* Notification Badge */}
             <span
-              className="absolute -top-1 -right-1 bg-red-500 text-white text-[10px] font-bold 
+              className="absolute top-0 right-0 bg-red-500 text-white text-[10px] font-bold 
                  px-1.5 py-[1px] rounded-full animate-pulse shadow-md"
             >
               1
